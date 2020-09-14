@@ -1,0 +1,14 @@
+[package]
+name = "arithmetic-sign"
+version = "1.0.0"
+authors = ["USAGI.NETWORK / Usagi Ito <the@usagi.network>"]
+edition = "2018"
+description = "Arithmetic `Sign`(≈+1|-1) to/from arithmetic types such as `f64`, `i32` utility."
+categories = ["mathematics"]
+keywords = ["sign", "arithmetic", "math", "positive", "negative"]
+license = "MIT"
+repository = "https://github.com/usagi/arithmetic-sign"
+readme = "README.md"
+
+[dependencies]
+thiserror="1.0.20"
